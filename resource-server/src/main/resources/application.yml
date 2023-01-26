@@ -1,0 +1,9 @@
+server:
+  port: 8445
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://127.0.0.1:8444/oauth2/jwks
